@@ -11,7 +11,7 @@ def main():
     cap.set(3, 640)
     cap.set(4, 480)
 
-    model = YOLO("../models/l_version_1_300.pt")
+    model = YOLO("models/l_version_1_300.pt")
 
     classNames = ["fake", "real"]
 
